@@ -32,3 +32,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.container {
+  background-color: #ffffff;
+  background-image: url("./assets/images/illustration-hero.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 1.5rem;
+  max-width: 45.5rem;
+  height: 69.5rem;
+}
