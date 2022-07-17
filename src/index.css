@@ -41,4 +41,14 @@ body {
   border-radius: 1.5rem;
   max-width: 45.5rem;
   height: 69.5rem;
+  margin: 10.6rem auto;
+  position: absolute;
+  left: 35%;
+}
+
+.container__card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 30%;
 }
