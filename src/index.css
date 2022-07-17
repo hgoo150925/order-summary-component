@@ -50,9 +50,20 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 30%;
+  top: 28%;
   padding: 7rem;
 }
 .container__card--text {
   text-align: center;
+}
+.container__card--text h1 {
+  color: var(--dark-blue);
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.container__card--text p {
+  color: var(--desaturated-blue);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 1.5rem 0 0 0;
 }
