@@ -45,7 +45,12 @@ body {
   position: absolute;
   left: 35%;
 }
-
+.container__card h2 {
+  color: var(--desaturated-blue);
+  text-align: center;
+  text-transform: capitalize;
+  margin: 3rem 0 0 0;
+}
 .container__card {
   display: flex;
   flex-direction: column;
@@ -75,12 +80,7 @@ body {
   margin: 2rem 0 0 0;
   width: 33rem;
 }
-.container__card h2 {
-  color: var(--desaturated-blue);
-  text-align: center;
-  text-transform: capitalize;
-  margin: 3rem 0 0 0;
-}
+
 .container__price--plan {
   margin: 0 0 0 2rem;
 }
@@ -117,4 +117,39 @@ ul li {
   width: 33rem;
   padding: 1.5rem;
   box-shadow: 0 2rem 2rem var(--pale-blue);
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    max-width: 45.5rem;
+    height: 66rem;
+    margin: 10.6rem auto;
+    position: absolute;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    max-width: 37rem;
+    height: 66rem;
+    margin: 10.6rem auto;
+    position: absolute;
+  }
+  .container__card--text h1 {
+    font-size: 2.5rem;
+  }
+  .container__card--text p {
+    font-size: 1.53rem;
+  }
+  .container__price {
+    padding: 1rem;
+    position: relative;
+    right: 20%;
+  }
+
+  .btn {
+    position: relative;
+    right: 20%;
+  }
 }
