@@ -24,8 +24,9 @@ export const Order = () => {
           </ul>
         </div>
         <div className="container__btn">
-          <button> Proceed to Payment</button>
+          <button className="btn"> Proceed to Payment</button>
         </div>
+        <h2>cancel order</h2>
       </div>
     </section>
   );

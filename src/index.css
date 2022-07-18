@@ -40,7 +40,7 @@ body {
   background-size: 100%;
   border-radius: 1.5rem;
   max-width: 45.5rem;
-  height: 69.5rem;
+  height: 66rem;
   margin: 10.6rem auto;
   position: absolute;
   left: 35%;
@@ -75,6 +75,12 @@ body {
   margin: 2rem 0 0 0;
   width: 33rem;
 }
+.container__card h2 {
+  color: var(--desaturated-blue);
+  text-align: center;
+  text-transform: capitalize;
+  margin: 3rem 0 0 0;
+}
 .container__price--plan {
   margin: 0 0 0 2rem;
 }
@@ -90,11 +96,25 @@ body {
   margin: 0.5rem 0 0 0;
 }
 ul li {
-  color: blue;
-  font-size: 1.5rem;
+  color: var(--bright-blue);
+  font-size: 1.4rem;
   font-weight: 700;
   list-style: none;
   text-transform: capitalize;
   text-decoration: underline;
-  margin: 1rem 0 0 8rem;
+  margin: 1.2rem 0 0 8rem;
+}
+
+.container__btn {
+  margin: 3rem 0 0 0;
+}
+.btn {
+  background-color: var(--bright-blue);
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: 900;
+  width: 33rem;
+  padding: 1.5rem;
+  box-shadow: 0 2rem 2rem var(--pale-blue);
 }
