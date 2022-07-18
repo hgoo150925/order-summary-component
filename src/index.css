@@ -47,6 +47,7 @@ body {
 }
 .container__card h2 {
   color: var(--desaturated-blue);
+  cursor: pointer;
   text-align: center;
   text-transform: capitalize;
   margin: 3rem 0 0 0;
@@ -113,6 +114,7 @@ ul li {
   border: none;
   border-radius: 1rem;
   color: #fff;
+  cursor: pointer;
   font-weight: 900;
   width: 33rem;
   padding: 1.5rem;
