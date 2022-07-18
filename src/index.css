@@ -119,6 +119,22 @@ ul li {
   box-shadow: 0 2rem 2rem var(--pale-blue);
 }
 
+@media screen and (max-width: 1980px) {
+  .container {
+    margin: 22rem auto;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    margin: 22rem auto;
+  }
+
+  .container {
+    margin: 10.6rem auto;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .container {
     max-width: 45.5rem;
