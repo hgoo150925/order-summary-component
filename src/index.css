@@ -132,9 +132,6 @@ ul li {
 @media screen and (max-width: 380px) {
   .container {
     max-width: 37rem;
-    height: 66rem;
-    margin: 10.6rem auto;
-    position: absolute;
   }
   .container__card--text h1 {
     font-size: 2.5rem;
