@@ -67,3 +67,34 @@ body {
   line-height: 1.5;
   margin: 1.5rem 0 0 0;
 }
+.container__price {
+  display: flex;
+  background-color: var(--very-pale-blue);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem 0 0 0;
+  width: 33rem;
+}
+.container__price--plan {
+  margin: 0 0 0 2rem;
+}
+.container__price--plan h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+.container__price--plan p {
+  color: var(--desaturated-blue);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0 0;
+}
+ul li {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: 700;
+  list-style: none;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin: 1rem 0 0 8rem;
+}

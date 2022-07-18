@@ -1,4 +1,5 @@
 import React from "react";
+import iconMusic from "./assets/images/icon-music.svg";
 
 export const Order = () => {
   return (
@@ -13,8 +14,11 @@ export const Order = () => {
         </div>
 
         <div className="container__price">
-          <p>Annual Plan</p>
-          <p> $59.99/year</p>
+          <img src={iconMusic} alt="icon-music" />
+          <div className="container__price--plan">
+            <h1>Annual Plan</h1>
+            <p> $59.99/year</p>
+          </div>
           <ul>
             <li>change</li>
           </ul>
